@@ -6,6 +6,10 @@ body {
   color: $text-color;
 }
 
+body a {
+  color: #3c9fab;
+}
+
 body h2{
   color: #eee;
 }
@@ -22,11 +26,16 @@ body h2{
 .navbar {
   margin: 0px;
   background: $background-purple;
-  color: $text-color;
+  color: #eee;
 }
 
 .navbar-header .navbar-brand {
-  color: $text-color;
+  color: #eee;
+  font-size: 30px;
+}
+
+.navbar .nav li a {
+  color: #eee;
 }
 
 .carousel-indicators {
