@@ -39,8 +39,11 @@ body h2{
 }
 
 .carousel-inner{
+  background: rgba(black, .5);
+  padding: 10px;
   .item > img {
-    width: 100%;
+    margin: auto;
+    width: auto;
     height: 500px;
   }
 }
