@@ -1,0 +1,41 @@
+body {
+  background: #2E0854;
+  color: #ddd; }
+
+body h2 {
+  color: #eee; }
+
+.btn-default {
+  background: #333;
+  color: #ddd; }
+  .btn-default:hover, .btn-default:focus, .btn-default:active {
+    background-color: #555;
+    color: #ddd; }
+
+.navbar {
+  margin: 0px;
+  background: #2E0854;
+  color: #ddd; }
+
+.navbar-header .navbar-brand {
+  color: #ddd; }
+
+.carousel-indicators li {
+  border: 1px solid #333; }
+.carousel-indicators .active {
+  background-color: #333; }
+
+.carousel-inner .item > img {
+  width: 100%;
+  height: 500px; }
+
+.gallery {
+  padding: 15px; }
+
+.panel {
+  background: rgba(255, 255, 255, 0.1);
+  border: rgba(255, 255, 255, 0.1);
+  color: #ddd;
+  margin: 10px; }
+
+/*# sourceMappingURL=master.css.map */

@@ -1,0 +1,59 @@
+$background-purple: #2E0854;
+$text-color: #ddd;
+
+body {
+  background: $background-purple;
+  color: $text-color;
+}
+
+body h2{
+  color: #eee;
+}
+
+.btn-default {
+  background: #333;
+  color: $text-color;
+  &:hover, &:focus, &:active {
+    background-color: #555;
+    color: $text-color;
+  }
+}
+
+.navbar {
+  margin: 0px;
+  background: $background-purple;
+  color: $text-color;
+}
+
+.navbar-header .navbar-brand {
+  color: $text-color;
+}
+
+.carousel-indicators {
+  li {
+    border: 1px solid #333;
+  }
+  .active {
+    background-color: #333;
+  }
+}
+
+.carousel-inner{
+  .item > img {
+    width: 100%;
+    height: 500px;
+  }
+}
+
+.gallery {
+  padding: 15px;
+}
+
+.panel {
+  background: rgba(white, .1);
+  border: rgba(white, .1);
+  color: $text-color;
+  margin: 10px;
+  
+}
+
